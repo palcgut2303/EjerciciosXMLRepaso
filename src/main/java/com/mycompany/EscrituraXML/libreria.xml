@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<libreria>
+    <nombre>Garci Mendez</nombre>
+    <libros>
+        <libro isbn="1654653A">
+            <titulo>La vuelta al mundo2</titulo>
+            <autor>JoseMiguel</autor>
+        </libro>
+        <libro isbn="78946AD">
+            <titulo>EduardoManosTijeras2</titulo>
+            <autor>Pedro</autor>
+        </libro>
+        <libro isbn="456131D">
+            <titulo>Aventuras2</titulo>
+            <autor>Sergio</autor>
+        </libro>
+    </libros>
+</libreria>

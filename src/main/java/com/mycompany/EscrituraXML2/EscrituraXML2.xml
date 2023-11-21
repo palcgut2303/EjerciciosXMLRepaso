@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<hechos_historicos>
+    <hechos descripcion="levantada del Imperio Romano">
+        <fecha>
+            <dia>9</dia>
+            <mes>12</mes>
+            <año>1520</año>
+        </fecha>
+    </hechos>
+    <hechos descripcion="Invención de la escritura">
+        <fecha>
+            <dia>9</dia>
+            <mes>12</mes>
+            <año>1520</año>
+        </fecha>
+    </hechos>
+    <hechos descripcion="Invento de la bombilla">
+        <fecha>
+            <dia>9</dia>
+            <mes>12</mes>
+            <año>1520</año>
+        </fecha>
+    </hechos>
+</hechos_historicos>
