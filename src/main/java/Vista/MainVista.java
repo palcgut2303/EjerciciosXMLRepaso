@@ -33,6 +33,8 @@ public class MainVista extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         jMenuEscritura = new javax.swing.JMenuItem();
         jMenuLectura = new javax.swing.JMenuItem();
+        jMenu2 = new javax.swing.JMenu();
+        jMLecturaBD = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -41,7 +43,7 @@ public class MainVista extends javax.swing.JFrame {
         jLabel1.setText("BIENVENIDO");
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
-        jMenu1.setText("Archivo");
+        jMenu1.setText("ArchivoXML");
 
         jMenuEscritura.setText("Escritura");
         jMenuEscritura.addActionListener(new java.awt.event.ActionListener() {
@@ -60,6 +62,18 @@ public class MainVista extends javax.swing.JFrame {
         jMenu1.add(jMenuLectura);
 
         jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("BaseDatosXML");
+
+        jMLecturaBD.setText("LecturaBD");
+        jMLecturaBD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMLecturaBDActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMLecturaBD);
+
+        jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
 
@@ -90,6 +104,10 @@ public class MainVista extends javax.swing.JFrame {
     private void jMenuLecturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuLecturaActionPerformed
         new Lectura(this, true).setVisible(true);
     }//GEN-LAST:event_jMenuLecturaActionPerformed
+
+    private void jMLecturaBDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMLecturaBDActionPerformed
+        new LecturaBD(this, true).setVisible(true);
+    }//GEN-LAST:event_jMLecturaBDActionPerformed
 
     /**
      * @param args the command line arguments
@@ -128,7 +146,9 @@ public class MainVista extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenuItem jMLecturaBD;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuEscritura;
     private javax.swing.JMenuItem jMenuLectura;

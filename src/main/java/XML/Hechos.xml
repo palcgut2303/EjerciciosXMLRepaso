@@ -28,4 +28,11 @@
             <año>2023</año>
         </fecha>
     </hecho>
+    <hecho descripcion="Descrubrimiento del fuego">
+        <fecha>
+            <dia>15</dia>
+            <mes>02</mes>
+            <año>02 A.C</año>
+        </fecha>
+    </hecho>
 </hechos_historicos>
